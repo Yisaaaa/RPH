@@ -126,3 +126,18 @@ body {
   margin-bottom: 3rem;
   line-height: 1.8;
 }
+
+.group-link:link,
+.group-link:visited {
+  margin-top: 7.2rem;
+  display: block;
+  text-align: end;
+  color: #ff9f1c;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.group-link:hover,
+.group-link:active {
+  color: #dc8100;
+}
