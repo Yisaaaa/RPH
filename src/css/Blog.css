@@ -1,0 +1,46 @@
+.blog {
+    padding-bottom: 100rem;
+}
+
+.blog-title,
+.blog-desc {
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 4.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.blog-desc {
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-bottom: 2.4rem;
+}
+.divider {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #27a69a;
+    margin-bottom: 6.4rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards > div {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3.2rem;
+    row-gap: 4.8rem;
+}
+
+/*
+ -- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
