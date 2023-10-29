@@ -17,7 +17,7 @@ export default function Card(prop) {
                 <p className="title">{prop.title}</p>
                 <p className="description">{prop.content[0].text}</p>
             </div>
-            <a className="btn--card" href="">
+            <a className="btn--card" href={`/article/${prop.id}`}>
                 Go to article
             </a>
         </figure>
