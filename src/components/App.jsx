@@ -1,8 +1,10 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Hero from "./Hero";
 import Blog from "./Blog";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Article from "./Article";
+import Footer from "./Footer";
 
 export default function App() {
     return (
@@ -15,6 +17,7 @@ export default function App() {
                         <>
                             <Hero />
                             <Blog />
+                            <Footer />
                         </>
                     }
                 />

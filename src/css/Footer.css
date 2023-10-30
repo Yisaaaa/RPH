@@ -1,0 +1,33 @@
+.footer.container {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    border-top: solid 2px #eee;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.icon {
+    height: 2rem;
+    color: #767676;
+    transition: all 0.25s ease-in;
+}
+
+.icon:hover,
+icon:active {
+    color: #555;
+}
+
+.footer-text {
+    color: #767676;
+    font-size: 1.4rem;
+}

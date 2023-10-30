@@ -91,7 +91,7 @@ export default [
             },
             {
                 id: 3,
-                text: `The treaty was signed to recognize the independence of the Republic of the Philippines as a separate self-governing nation and to acknowledge the authority and control over the same of the Government instituted by the people thereof, under the Constitution of the Republic of the Philippines1. The treaty also relinquished U.S. sovereignty over the Philippines and provided for the recognition of Philippine independence as of July 4, 194624.`,
+                text: `The treaty was signed to recognize the independence of the Republic of the Philippines as a separate self-governing nation and to acknowledge the authority and control over the same of the Government instituted by the people thereof, under the Constitution of the Republic of the Philippines1. The treaty also relinquished U.S. sovereignty over the Philippines and provided for the recognition of Philippine independence as of July 4, 1946.`,
             },
             {
                 id: 4,

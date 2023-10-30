@@ -17,7 +17,7 @@ export default function Blog() {
                     </h2>
                     <p className="blog-desc">
                         These are the individual works that we are tasked to do
-                        by MR. Villegas--our professor in Readings in the
+                        by Mr. Villegas--our professor in Readings in the
                         Philippine History
                         <br />
                         The activities were made into blog articles for easy
