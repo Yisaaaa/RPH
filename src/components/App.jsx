@@ -6,6 +6,7 @@ import Blog from "./Blog";
 import Article from "./Article";
 import Footer from "./Footer";
 
+import "../css/index.css";
 export default function App() {
     return (
         <BrowserRouter>
