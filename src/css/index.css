@@ -80,13 +80,21 @@ body {
     html {
         font-size: 50%;
     }
+
+    .hero-section {
+        padding: 30rem 0;
+    }
 }
 
-@media (max-width: 27em) {
+@media (max-width: 48em) {
+    .hero-section {
+        padding-top: 20rem;
+        padding-bottom: 30rem;
+    }
     .hero {
         grid-template-columns: 1fr;
         justify-items: center;
-        row-gap: 4.8rem;
+        row-gap: 8rem;
     }
 
     .text-box .heading--primary {
@@ -97,8 +105,15 @@ body {
     .text-box {
         text-align: center;
         align-items: center;
+        padding: 0 6.4rem;
     }
 
+    .img-box {
+        width: 70%;
+    }
+}
+
+@media (max-width: 27em) {
     .hero-text {
         font-size: 1.6rem;
     }
@@ -111,6 +126,10 @@ body {
 
     .hero-img {
         margin-left: -1.2rem;
+    }
+
+    .text-box {
+        padding: 0;
     }
 }
 
