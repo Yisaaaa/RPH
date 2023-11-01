@@ -2,6 +2,7 @@ import React from "react";
 // import heroImg from "../img/TheParisianLife_JuanLuna.jpg";
 import heroImg from "../img/Hero.png";
 import "../css/Hero.css";
+import "../css/index.css";
 
 export default function Hero() {
     return (
