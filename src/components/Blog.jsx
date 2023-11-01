@@ -1,5 +1,5 @@
 import React from "react";
-import BlogCss from "../css/Blog.css";
+import "../css/Blog.css";
 import articles from "../data";
 import Card from "./Card";
 

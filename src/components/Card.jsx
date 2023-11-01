@@ -1,5 +1,5 @@
 import React from "react";
-import CardCss from "../css/Card.css";
+import "../css/Card.css";
 
 // src="/src/img/card-img/Manila.png"
 export default function Card(prop) {

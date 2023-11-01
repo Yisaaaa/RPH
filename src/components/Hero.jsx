@@ -1,7 +1,7 @@
 import React from "react";
 // import heroImg from "../img/TheParisianLife_JuanLuna.jpg";
 import heroImg from "../img/Hero.png";
-import HeroCss from "../css/Hero.css";
+import "../css/Hero.css";
 
 export default function Hero() {
     return (

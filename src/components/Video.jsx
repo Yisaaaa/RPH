@@ -1,5 +1,5 @@
 import React from "react";
-import VideoCss from "../css/Video.css";
+import "../css/Video.css";
 
 export default function Video(props) {
     return (

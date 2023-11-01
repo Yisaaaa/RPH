@@ -2,8 +2,7 @@ import React from "react";
 import articles from "../data";
 import { useParams } from "react-router-dom";
 import Video from "./Video";
-import ArticleCss from "../css/Article.css";
-import css from "../css/index.css";
+import "../css/Article.css";
 
 export default function Article() {
     const { id } = useParams();
