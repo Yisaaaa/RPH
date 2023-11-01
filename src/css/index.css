@@ -46,9 +46,79 @@ body {
     letter-spacing: 1.1px;
 }
 
-/**********************/
-/* BLOG               */
-/**********************/
+@media (max-width: 74.5em) {
+    .heading--primary {
+        font-size: 3.6rem;
+    }
+
+    .heading--secondary {
+        font-size: 3rem;
+    }
+
+    .subheading {
+        font-size: 1.4rem;
+    }
+
+    .hero {
+        max-width: 100rem;
+    }
+
+    .container {
+        max-width: 100rem;
+    }
+
+    .hero-text {
+        font-size: 1.8rem;
+    }
+
+    .blog-desc {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 56em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 27em) {
+    .hero {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 4.8rem;
+    }
+
+    .text-box .heading--primary {
+        width: 100%;
+        font-size: 3em;
+    }
+
+    .text-box {
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-text {
+        font-size: 1.6rem;
+    }
+
+    .cards > div {
+        grid-template-columns: 1fr;
+        align-items: center;
+        row-gap: 4.8rem;
+    }
+
+    .hero-img {
+        margin-left: -1.2rem;
+    }
+}
+
+@media (max-width: 24em) {
+    .btn {
+        padding: 1.2rem 2.4rem;
+    }
+}
 
 /*
  -- SPACING SYSTEM (px)
@@ -57,11 +127,3 @@ body {
 -- FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
  */
-
-/**********************/
-/* SECTION INTRAMUROS */
-/**********************/
-
-/**********************/
-/* SECTION INTRAMUROS */
-/**********************/
