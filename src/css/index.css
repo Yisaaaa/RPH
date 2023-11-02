@@ -47,31 +47,31 @@ body {
 }
 
 @media (max-width: 74.5em) {
-    .heading--primary {
+    h1.heading--primary {
         font-size: 3.6rem;
     }
 
-    .heading--secondary {
+    h2.heading--secondary {
         font-size: 3rem;
     }
 
-    .subheading {
+    p.subheading {
         font-size: 1.4rem;
     }
 
-    .hero {
+    div.hero {
         max-width: 100rem;
     }
 
-    .container {
+    div.container {
         max-width: 100rem;
     }
 
-    .hero-text {
+    p .hero-text {
         font-size: 1.8rem;
     }
 
-    .blog-desc {
+    p.blog-desc {
         font-size: 1.6rem;
     }
 }
@@ -81,60 +81,60 @@ body {
         font-size: 50%;
     }
 
-    .hero-section {
+    section.hero-section {
         padding: 30rem 0;
     }
 }
 
 @media (max-width: 48em) {
-    .hero-section {
+    section.hero-section {
         padding-top: 20rem;
         padding-bottom: 30rem;
     }
-    .hero {
+    div.hero {
         grid-template-columns: 1fr;
         justify-items: center;
         row-gap: 8rem;
     }
 
-    .text-box .heading--primary {
+    div.text-box .heading--primary {
         width: 100%;
         font-size: 3em;
     }
 
-    .text-box {
+    div.text-box {
         text-align: center;
         align-items: center;
         padding: 0 6.4rem;
     }
 
-    .img-box {
+    div.img-box {
         width: 70%;
     }
 }
 
 @media (max-width: 27em) {
-    .hero-text {
+    p.hero-text {
         font-size: 1.6rem;
     }
 
-    .cards > div {
+    div.cards > div {
         grid-template-columns: 1fr;
         align-items: center;
         row-gap: 4.8rem;
     }
 
-    .hero-img {
+    img.hero-img {
         margin-left: -1.2rem;
     }
 
-    .text-box {
+    div.text-box {
         padding: 0;
     }
 }
 
 @media (max-width: 24em) {
-    .btn {
+    button.btn {
         padding: 1.2rem 2.4rem;
     }
 }
