@@ -4,7 +4,7 @@ export default [
         date: "Oct 14, 2023",
         title: "Intramuros should be restored",
         subHeading: "Watch now",
-        videoUrl: "https://www.youtube.com/embed/cR1dlRnMb0k",
+        videoUrl: "https://www.youtube.com/embed/tC828jeziIw",
         cardImg: "Manila.png",
         description: `In this video I talked about Intramuros and shared my thoughts why
         I think it is important and worthwhile to restore it to its former
